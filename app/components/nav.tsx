@@ -38,7 +38,7 @@ const Nav = ({menuActive, setMenuActive}: Props) => {
                 </li>
             </ul>
             <Link className={`mt-5 w-fit p-4 bg-orange text-off-white hover:bg-transparent border border-orange rounded-sm hover:text-orange ${montserrat.className}`}
-                  href="/">
+                  href="/Konstantinos-Marinopoulos-CV.pdf" target="_blank">
                 Download my Resume.
             </Link>
 
