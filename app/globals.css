@@ -7,8 +7,16 @@
 }
 
 .menuItemActive {
-    width: 80%;
+    width: 80%!important;
 }
+
+@media (max-width: 640px) {
+    .menuItemActive {
+        width: 100%!important;
+    }
+}
+
+
 
 .scrolledTitle {
     /*transform: translateX(55vw);*/

@@ -8,7 +8,8 @@ const Footer = () => {
             width: '100%',
             height: '45px',
             left: '0',
-            backgroundColor: '#232323'
+            backgroundColor: '#232323',
+            zIndex: 60
         }}></footer>
     );
 };
