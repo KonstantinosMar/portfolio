@@ -23,7 +23,7 @@ const Nav = ({menuActive, setMenuActive}: Props) => {
     }
 
     return (
-        <div className="flex flex-col justify-center h-[calc(100vh_-_90px)] ml-24 sm:ml-48 mb-24">
+        <div className="flex flex-col justify-center h-[calc(100vh_-_90px)] ml-0 sm:ml-48 mb-24">
             <ul className="font-bold text-base sm:text-3xl text-off-white flex flex-col gap-0.5 sm:gap-2 ">
                 {
                     navLinks.map((navLink) => {

@@ -25,7 +25,7 @@ const Menu = () => {
             <div
                 className={`fixed left-0 w-[25px] sm:w-[45px] h-screen bg-dark-grey translate-x-0 -translate-y-1/2 bottom-[calc(-50vh-45px)] transition-width menuItem z-[150] ${menuActive && 'menuItemActive'}`}>
                 <nav
-                    className={`relative transition-left duration-[0.8s] left-[-100vw] opacity-0 ${menuActive && '!left-0 opacity-100'}`}>
+                    className={`relative flex items-center justify-center sm:block transition-left duration-[0.8s] left-[-100vw] opacity-0 ${menuActive && '!left-0 opacity-100'}`}>
                     <Nav menuActive={menuActive} setMenuActive={setMenuActive}/>
                 </nav>
             </div>
