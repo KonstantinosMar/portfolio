@@ -9,6 +9,7 @@ import Socials from "@/app/components/socials";
 import Menu from "@/app/components/menu";
 import Footer from "@/app/components/footer";
 import StarsCanvas from "@/app/components/canvas/Stars";
+import WorkSection from "@/app/components/workSection";
 
 export default function Home() {
 
@@ -22,6 +23,7 @@ export default function Home() {
                 <Socials />
                 <div className=" mt-[300vh] w-full bg-dark z-50">
                     <AboutSection />
+                    <WorkSection />
                     <ProjectsSection />
                 </div>
             </main>
