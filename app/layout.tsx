@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Konstnatinos Marinopoulos •',
-  description: 'Konstnatinos Marinopoulos portfolio' ,
+  title: 'Konstantinos Marinopoulos •',
+  description: 'Konstantinos Marinopoulos portfolio' ,
 }
 
 export default function RootLayout({
