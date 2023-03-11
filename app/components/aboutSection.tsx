@@ -3,6 +3,7 @@ import {Lora, Montserrat} from "next/font/google";
 
 import {FaCss3, FaDocker, FaGit, FaHtml5, FaJs, FaNode, FaPhp, FaReact, FaSass, FaWordpress} from "react-icons/fa"
 import {SiMongodb, SiNextdotjs, SiTailwindcss, SiTypescript} from "react-icons/si";
+import Image from "next/image";
 
 const lora = Lora({subsets: ['latin']})
 const montserrat = Montserrat({subsets: ['latin']})
@@ -10,6 +11,8 @@ const montserrat = Montserrat({subsets: ['latin']})
 const AboutSection = () => {
     return (
         <section id="about" className="h-[calc(100vh_-_145px)]">
+            <Image src="/programming-image.jpg" alt="Coding" width="0" height="0" sizes="100vw" className="w-full h-64 object-cover"/>
+
             <h2 className={`w-fit border-y border-yellow py-2 text-yellow font-extrabold text-[64px] leading-[56px] mt-16 ml-16 ${montserrat.className}`}>AB<br></br>OUT
             </h2>
             <div className={`w-9/12 m-auto mt-5 text-off-white ${lora.className}`}>

@@ -1,5 +1,6 @@
 import React, {ReactNode} from 'react';
 import Link from "next/link";
+import {navLinks} from "../constants/index"
 import {Montserrat} from "next/font/google";
 
 const montserrat = Montserrat({subsets: ['latin']})
@@ -24,18 +25,12 @@ const Nav = ({menuActive, setMenuActive}: Props) => {
     return (
         <div className="flex flex-col justify-center h-[calc(100vh_-_90px)] ml-48 mb-24">
             <ul className="font-bold text-3xl text-off-white flex flex-col gap-2 ">
-                <li className={`navItem cursor-pointer ${montserrat.className}`}
-                    onClick={() => handleClick('home')}>Home.
-                </li>
-                <li className={`navItem cursor-pointer ${montserrat.className}`}
-                    onClick={() => handleClick('about')}>About.
-                </li>
-                <li className={`navItem cursor-pointer ${montserrat.className}`}
-                    onClick={() => handleClick('projects')}>Projects.
-                </li>
-                <li className={`navItem cursor-pointer ${montserrat.className}`}
-                    onClick={() => handleClick('contact')}>Contact.
-                </li>
+                {
+                    navLinks.map((navLink) => {
+                        return <li key={navLink.id} className={`navItem cursor-pointer ${montserrat.className}`}
+                                  onClick={() => handleClick(navLink.id)}>{navLink.title}.</li>
+                    })
+                }
             </ul>
             <Link className={`mt-5 w-fit p-4 bg-orange text-off-white hover:bg-transparent border border-orange rounded-sm hover:text-orange ${montserrat.className}`}
                   href="/Konstantinos-Marinopoulos-CV.pdf" target="_blank">
