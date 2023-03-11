@@ -27,17 +27,17 @@ const Nav = ({menuActive, setMenuActive}: Props) => {
             <ul className="font-bold text-base sm:text-3xl text-off-white flex flex-col gap-0.5 sm:gap-2 ">
                 {
                     navLinks.map((navLink) => {
-                        return <li key={navLink.id} className={`navItem cursor-pointer ${montserrat.className}`}
+                        return <li key={navLink.id} className={`navItem cursor-pointer z-[80] ${montserrat.className}`}
                                   onClick={() => handleClick(navLink.id)}>{navLink.title}.</li>
                     })
                 }
             </ul>
-            <Link className={`mt-5 w-fit text-sm sm:text-base p-2 sm:p-4 bg-orange text-off-white hover:bg-transparent border border-orange rounded-sm hover:text-orange ${montserrat.className}`}
+            <Link className={`mt-5 z-[80] w-fit text-sm sm:text-base p-2 sm:p-4 bg-orange text-off-white hover:bg-transparent border border-orange rounded-sm hover:text-orange ${montserrat.className}`}
                   href="/Konstantinos-Marinopoulos-CV.pdf" target="_blank">
                 Download my Resume.
             </Link>
 
-            <div className={`${montserrat.className} flex flex-col gap-1 mt-9 text-off-white`}>
+            <div className={`${montserrat.className} flex flex-col gap-1 mt-9 text-off-white z-[80]`}>
                 <div className="mb-1 text-xs">Thessaloniki, Greece</div>
                 <div className="text-sm font-bold">+30 6946197719</div>
                 <Link className="text-sm font-bold" href="mailto:kostas.marinopoulos@outlook.com">kostas.marinopoulos@outlook.com</Link>

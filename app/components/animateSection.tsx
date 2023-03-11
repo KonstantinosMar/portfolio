@@ -45,7 +45,7 @@ const AnimateSection = () => {
                     <Image
                         src="/waves.svg" alt="Waves" width={44} height={6} priority/>Since 1997</p>
                 <div className="overflow-hidden ml-4 sm:ml-[50px] mr-0 mt-5 mb-0">
-                    <p className={`mb-28 text-off-white relative transition-all duration-[0.8s] ease-[ease-out] h-full text-lg sm:text-[2em] top-full ${lora.className} ${scrolledSecondary && '!top-0'}`}>
+                    <p className={`mb-28 text-off-white relative transition-all duration-[0.8s] ease-[ease-out] h-full text-lg sm:text-3xl top-full ${lora.className} ${scrolledSecondary && '!top-0'}`}>
                         Hello World,<br/> My name is <span className="text-orange">Konstantinos Marinopoulos</span><br/>
                         and I’m a Full Stack Developer.
                     </p>

@@ -10,7 +10,7 @@ const montserrat = Montserrat({subsets: ['latin']})
 
 const AboutSection = () => {
     return (
-        <section id="about" className="h-[calc(160vh_-_145px)]">
+        <section id="about" className="h-auto">
             <Image src="/programming-image.jpg" alt="Coding" width="0" height="0" sizes="100vw" className="w-full h-64 object-cover"/>
 
             <h2 className={`w-fit border-y border-yellow py-2 text-yellow font-extrabold text-[64px] leading-[56px] mt-16 ml-16 ${montserrat.className}`}>AB<br></br>OUT

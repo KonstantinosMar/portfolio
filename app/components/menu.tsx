@@ -15,7 +15,7 @@ const Menu = () => {
                 </div>
             </div>
             <div
-                className="menuButton z-[70] hidden sm:flex fixed top-1/2 translate-x-0 translate-y-1/2 left-[25px] gap-0.5 cursor-pointer z-10"
+                className="menuButton z-[160] hidden sm:flex fixed top-1/2 translate-x-0 translate-y-1/2 left-[25px] gap-0.5 cursor-pointer"
                 onClick={() => setMenuActive(!menuActive)}>
                 <div>
                     <Image src="/menu.svg" alt="Menu" width={25} height={12} priority/>
@@ -23,7 +23,7 @@ const Menu = () => {
                 <div className={`text-off-white text-xs -rotate-90 ${lora.className}`}>Menu</div>
             </div>
             <div
-                className={`fixed left-0 w-[25px] sm:w-[45px] h-screen bg-dark-grey translate-x-0 -translate-y-1/2 bottom-[calc(-50vh-45px)] transition-width menuItem z-[60] ${menuActive && 'menuItemActive'}`}>
+                className={`fixed left-0 w-[25px] sm:w-[45px] h-screen bg-dark-grey translate-x-0 -translate-y-1/2 bottom-[calc(-50vh-45px)] transition-width menuItem z-[150] ${menuActive && 'menuItemActive'}`}>
                 <nav
                     className={`relative transition-left duration-[0.8s] left-[-100vw] opacity-0 ${menuActive && '!left-0 opacity-100'}`}>
                     <Nav menuActive={menuActive} setMenuActive={setMenuActive}/>
