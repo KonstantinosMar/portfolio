@@ -2,15 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer style={{
-            position: 'fixed',
-            bottom: '0',
-            width: '100%',
-            height: '45px',
-            left: '0',
-            backgroundColor: '#232323',
-            zIndex: 60
-        }}></footer>
+        <footer className="hidden sm:block fixed top-0 w-full h-[45px] left-0 bg-dark-grey z-[60]"></footer>
     );
 };
 

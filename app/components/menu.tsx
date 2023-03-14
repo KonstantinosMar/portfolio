@@ -9,7 +9,7 @@ const Menu = () => {
 
     return (
         <>
-            <div className="mobileMenuButton z-10 fixed top-2 right-4 sm:hidden z-[60]" onClick={() => setMenuActive(!menuActive)}>
+            <div className="mobileMenuButton z-10 fixed top-2 right-4 sm:hidden z-[160]" onClick={() => setMenuActive(!menuActive)}>
                 <div className="bg-off-white p-2 rounded-full cursor-pointer">
                     <Image src="/menuMobile.svg" alt="Menu" width={20} height={10} priority/>
                 </div>
