@@ -50,8 +50,8 @@ const Panel = ({title, tags, description, image, url, github }: Props) => {
                     </h3>
                     <div className="flex gap-2 mt-2">
                         {
-                            tags.map((tag: string) => (
-                                <div className="bg-dark-grey text-white py-1 px-4 rounded-[20px]">{tag}</div>
+                            tags.map((tag: string, index: number) => (
+                                <div key={index} className="bg-dark-grey text-white py-1 px-4 rounded-[20px]">{tag}</div>
                             ))
                         }
                     </div>
