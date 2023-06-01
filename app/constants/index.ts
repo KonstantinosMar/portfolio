@@ -54,3 +54,39 @@ export const workingExperience: Experience[] = [
         description: ""
     }
 ]
+
+interface Projects {
+    title: string;
+    tags: any;
+    description: string;
+    image: string;
+    url: string;
+    github: string;
+}
+
+export const myProjects: Projects[] = [
+    {
+        title: "Lydia Filippisia",
+        tags: ['Wordpress', "Woocommerce", "PHP"],
+        description: "Woocommerce theme, eshop",
+        image: "/lydia.png",
+        url: "https://lydiafilippisia.gr",
+        github: ""
+    },
+    {
+        title: "Pokemon Pinterest",
+        tags: ["Next.js", "API", "SCSS"],
+        description: "Pinterest clone with custom masonry layout",
+        image: "/pokemon-pinterest.png",
+        url: "https://pokemon-pinterest.vercel.app",
+        github: "https://github.com/KonstantinosMar/pokemon-pinterest"
+    },
+    {
+        title: "Weatherable",
+        tags: ["React", "SCSS"],
+        description: "Simple weather app",
+        image: "/weatherable.png",
+        url: "",
+        github: "https://github.com/KonstantinosMar/weatherable"
+    }
+];

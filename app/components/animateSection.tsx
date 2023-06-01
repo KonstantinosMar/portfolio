@@ -36,7 +36,7 @@ const AnimateSection = () => {
             <div id="home" className={`main flex-[1] flex flex-col justify-center items-center h-screen sm:h-[calc(100vh_-_90px)] z-[-1] fixed w-[-webkit-fill-available] overflow-hidden bg-[linear-gradient(90deg,#141204_50%,#CBA135_50%)] mr-[25px] sm:mr-[45px] 
              before:absolute before:content-[""] before:bg-[linear-gradient(90deg,#141204_100%,#CBA135_0%)] before:transition-all before:duration-[0.5s] before:ease-[ease-out] before:z-[-1] before:w-6/12 before:inset-0
              ${scrolledMain && 'before:w-full'}`}>
-                <h1 className={`text-off-white text-[16vw] font-extrabold leading-[0.8em] transition-transform duration-[0.6s] ease-[ease-out] ${montserrat.className} ${scrolledMain && 'translate-x-[100vw] sm:translate-x-[55vw] text-orange'}`}>CON<br/>MARIN<span className="text-dark">.</span>
+                <h1 className={`text-off-white text-[16vw] leading-[0.8em] sm:text-[13vw] font-extrabold  transition-transform duration-[0.6s] ease-[ease-out] ${montserrat.className} ${scrolledMain && 'translate-x-[100vw] sm:translate-x-[55vw] text-orange'}`}>CON<br/>MARIN<span className="text-dark">.</span>
                 </h1>
             </div>
             <div className={`flex-[1] flex flex-col justify-center h-[calc(100vh_-_90px)] z-[-1] fixed w-[-webkit-fill-available] overflow-hidden bg-transparent opacity-0 m-[45px] ${scrolledSecondary && 'opacity-100'}`}>

@@ -28,8 +28,8 @@ const AboutSection = () => {
                     resourcefulness and innovation. Passionate about writing clean and functional code while following
                     design patterns with strong attention to detail.
                 </p>
-                <div className="flex flex-col sm:flex-row mt-12">
-                    <p className="text-2xl text-center mb-4">Tech:</p>
+                <div className="flex flex-col justify-center items-center sm:flex-row mt-12">
+                    <p className="text-xl text-center mb-4 sm:mb-0">Tech:</p>
                     <div className="flex items-center justify-center gap-2 flex-wrap">
                         <FaHtml5 className="hover:text-[#E96328]" size={40}/>
                         <FaCss3 className="hover:text-[#3595D0]" size={40}/>
