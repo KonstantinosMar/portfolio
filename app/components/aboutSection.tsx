@@ -11,7 +11,7 @@ const montserrat = Montserrat({subsets: ['latin']})
 const AboutSection = () => {
 
     return (
-        <section id="about" className="h-auto z-50 bg-dark">
+        <section id="about" className="h-auto z-50 bg-light dark:bg-dark">
             <Image
                 src="/programming-image.jpg"
                 alt="Coding"
@@ -22,7 +22,7 @@ const AboutSection = () => {
             />
             <h2 className={`w-fit border-y border-yellow py-2 text-yellow font-extrabold text-[64px] leading-[56px] mx-auto mt-8 sm:mt-16 sm:ml-16 ${montserrat.className}`}>AB<br></br>OUT
             </h2>
-            <div className={`w-9/12 m-auto mt-5 text-off-white text-center sm:text-left ${lora.className}`}>
+            <div className={`w-9/12 m-auto mt-5 text-dark dark:text-off-white text-center sm:text-left ${lora.className}`}>
                 <p>Organised, dedicated and ambitious Full Stack Developer, working efficiently in a team which provides
                     support with front-end processes and back-end solutions. Keen to work with new technologies,
                     resourcefulness and innovation. Passionate about writing clean and functional code while following

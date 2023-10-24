@@ -12,12 +12,14 @@ const Stars = (props: any) => {
         ref.current.rotation.y -= delta / 15;
     });
 
+    let htmlElement = window.document.getElementsByTagName('html')
+    let dark: boolean = htmlElement[0].classList.contains('dark')
     return (
         <group rotation={[0, 0, Math.PI / 4]}>
             <Points ref={ref} positions={sphere} stride={3} frustumCulled {...props}>
                 <PointMaterial
                     transparent
-                    color='#f272c8'
+                    color={dark ? '#f272c8' : '#141204'}
                     size={0.002}
                     sizeAttenuation={true}
                     depthWrite={false}

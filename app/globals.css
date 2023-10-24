@@ -12,16 +12,16 @@
     scrollbar-color: #232323 #141204;
 }
 
-*::-webkit-scrollbar {
+html.dark::-webkit-scrollbar {
     width: 15px;
 }
 
-*::-webkit-scrollbar-track {
+html.dark::-webkit-scrollbar-track {
     background: #232323;
     border-radius: 0px;
 }
 
-*::-webkit-scrollbar-thumb {
+html.dark::-webkit-scrollbar-thumb {
     background-color: #141204;
     border-radius: 0px;
     border: 5px solid #232323;

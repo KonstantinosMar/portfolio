@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <>
-    <html lang="en">
+    <html lang="en" className="dark">
       
       <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-225RPY1284"/>
       <Script id='google-analytics' strategy="afterInteractive"
@@ -26,7 +26,7 @@ export default function RootLayout({
           });`,
         }}/>
 
-      <body className="bg-dark-grey mt-[45px] mb-0 m-[25px] sm:m-[45px]">{children}</body>
+      <body className="bg-light-grey dark:bg-dark-grey mt-[45px] mb-0 m-[25px] sm:m-[45px]">{children}</body>
     </html>
     </>
     

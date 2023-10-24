@@ -21,7 +21,7 @@ export default function Home() {
                 <StarsCanvas />
                 <AnimateSection />
                 <Socials />
-                <div className=" mt-[300vh] w-full bg-dark z-50">
+                <div className=" mt-[300vh] w-full bg-light dark:bg-dark z-50">
                     <AboutSection />
                     <WorkSection />
                     <ProjectsSection />
