@@ -1,5 +1,3 @@
-import React from "react";
-
 interface NavLink {
     id: string;
     title: string;
@@ -45,13 +43,15 @@ export const workingExperience: Experience[] = [
         location: "Athens, Greece",
         dateFrom: "Jul 2023",
         dateTo: "Present",
-        description: "Working on Magento 2 e-commerce solutions and developing custom applications for a range of clients",
+        description: "Working on full stack applications applied on ecommerce solutions and developing custom back-office web applications using Next.js, React, TypeScript and Laravel.",
         bullets: [
             "Supporting Headless Magento 2 e-commerce solutions utilizing technologies like React and Redux for Progressive Web App (PWA) support and GraphQL",
-            "Developing custom applications using React and Typescript",
-            "Building unique web tools using Alpine.js and Laravel and working with Alpine.js on Hyvä Magento 2 theme",
+            "Contributing to the development of custom back-office web applications using Next.js, React, TypeScript and Laravel enhancing internal processes for client management.",
+            "Utilizing Next.js to implement Headless WordPress websites with GraphQL, ensuring seamless integration and efficient content management.",
+            "Assisting in the development and bug fixing of a dynamic questionnaire application using TypeScript, React, and Node.js, ensuring smooth functionality and user experience.",
+            "Building search web tool using Alpine.js, Laravel and integrate with OpenSearch",
             "Providing support on existing Magento 2 e-commerce solutions for both front-end and backend implementations",
-            "Communicating with clients on the progress of current projects and the application of newly developed company solutions",
+            "Communicating with clients on the progress of current projects and the application of newly developed company solutions"
         ]
     },
     {
@@ -96,7 +96,7 @@ export const myProjects: Projects[] = [
     {
         title: "Lydia Filippisia",
         tags: ['Wordpress', "Woocommerce", "PHP"],
-        description: "Woocommerce theme, eshop",
+        description: "Woocommerce website for a bookstore in Greece",
         image: "/lydia.png",
         url: "https://lydiafilippisia.gr",
         github: ""
