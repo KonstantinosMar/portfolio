@@ -108,13 +108,5 @@ export const myProjects: Projects[] = [
         image: "/pokemon-pinterest.png",
         url: "https://pokemon-pinterest.vercel.app",
         github: "https://github.com/KonstantinosMar/pokemon-pinterest"
-    },
-    {
-        title: "Weatherable",
-        tags: ["React", "SCSS"],
-        description: "Simple weather app",
-        image: "/weatherable.png",
-        url: "",
-        github: "https://github.com/KonstantinosMar/weatherable"
     }
 ];
